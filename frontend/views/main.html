@@ -1,0 +1,56 @@
+<style>
+    section{
+        min-width: 100%;
+        min-height: 100vh;
+        background: #80FF60;
+        display: flex;
+        flex-direction: column;
+    }
+    section div{
+        flex-grow: 1;
+        background: #85C1E9;
+        border-bottom: #3D59AB solid 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: all 1s;
+    }
+    .dark{
+        background: #123456;
+        transition: all 1s;
+    }
+    .demo-title{
+        font-family: "Al Tarikh";
+        font-size: 3em;
+        text-align: center;
+    }
+    .demo-button{
+        width: 10%;
+        align-self: center;
+        padding: 0.5em 1.2em;
+        background: #BCD2EE;
+    }
+    .inputs{
+        flex-direction: row;
+    }
+    input{
+        width: 5%;
+        align-self: baseline;
+    }
+</style>
+<section ng-controller="mainPage">
+    <div>
+        <h1 class="demo-title">
+            Esta es mi página, con un fondo {{background_color}}
+        </h1>
+        <div class="inputs">
+            <input type="number" max="9" min="0" placeholder="introduce tu color en hex" ng-model="background_color.a">
+            <input type="number" max="9" min="0" placeholder="introduce tu color en hex" ng-model="background_color.b">
+            <input type="number" max="9" min="0" placeholder="introduce tu color en hex" ng-model="background_color.c">
+        </div>
+        <button ng-click="showAlert(); changeBackground()" class="demo-button">
+            Soy un alert
+        </button>
+    </div>
+    <div  style="background-color:#{{background_color.a}}{{background_color.b}}{{background_color.c}}" ></div>
+</section>

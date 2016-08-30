@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="demoApp">
+
+<head>
+    <link rel="icon" type="image/png" href="favicon.jpg"/>
+    <link type = "text/css" rel="stylesheet" href="dist/app.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title page-title></title>
+
+</head>
+
+<body ng-controller="mainCtrl" class="{{$state.current.data.specialClass}}" landing-scrollspy id="page-top">
+        <div ui-view id="uiView"></div>
+        <script src="dist/app.js"></script>
+</body>
+</html>

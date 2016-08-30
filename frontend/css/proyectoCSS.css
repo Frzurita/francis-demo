@@ -1,0 +1,139 @@
+#mipagina {
+  height: 60px;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: -20px;
+  font-family: fantasy;
+  background-color: #FF60A3;
+  color: white;
+  text-align: center;
+  z-index:1;}
+
+body {
+  margin:0;
+  border: 0;
+  background-color: #EBEDEF;}
+
+.alineado {
+  display: inline;
+  padding-top: 0px;
+  padding-bottom:20px;}
+
+#encabezado {
+  padding:20px; /*el espacio entre el borde y el contenido*/
+  display: block;
+  font-weight: bold;
+  height: 20px;
+  font-family: Verdana;
+  background-color: #FFFC0F;
+  margin: auto;}
+
+a {
+  text-decoration: none;
+  color: black;}
+
+a:hover {color: orange;}
+
+.redes {
+  width:30px;
+  height:30px;
+  object-fit:cover;
+  float: right;}
+
+#cuadro_redes {
+	display: inline-block;
+  float: right;
+  margin-top: -5px;}
+
+#imagen_de_fondo {
+  background-image: url("http://www.teolia.fr/wp-content/uploads/2015/05/bandeau1-1366x300.png");
+  height: 300px;
+  transition: width 2s, height 2s, transform 2s;}
+
+#contenedor {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #80FF60;}
+
+#seccion1 {	height: 650px;
+	width: 590px;
+	border: 5px solid #EBEDEF;
+	display: inline-block;}
+
+#tabla_video {
+  border: 2px solid #EBEDEF;
+  height: 600px;
+  width: 530px;
+  margin: 20px auto auto auto;
+  text-align: center;
+  color: #3D59AB;
+  font-family: Verdana;
+  font-size: 24px;
+}
+
+ul {
+  color: black;
+  font-family: Verdana;
+  font-size: 18px;
+  margin: 60px auto auto auto;
+  text-align: left;
+}
+
+#video {
+  width:400px;
+  height:200px;
+  margin: -5px 40px 0px 35px;}
+
+#seccion2 {	height: 650px;
+	width: 390px;
+	border: 5px solid #EBEDEF;
+	display: inline-block;
+  float: right;}
+
+  #sobre_mi {
+  	border: 2px solid white;
+  	background-color: #EBEDEF;
+  	height: 30px;
+  	width: 150px;
+  	margin: 20px auto auto auto;
+  	text-align: center;
+    font-family: Verdana;
+    font-size: 24px;}
+
+#img {
+    transition:all 0.75s ease;}
+#img:hover {
+    transform:scale(1.30);}
+#img-contenedor {
+    margin: 20px 50px 10px 45px;
+    height: 412px;
+    width: 300px;
+    overflow: hidden; /*el navegador oculta el contenido que se sale de la caja del elemento*/}
+
+.parrafada {
+  text-align: center;
+  margin: auto;}
+
+#enlace {
+  	border-radius: 15px;
+  	border: 2px solid #6495ED;
+  	background-color: #BCD2EE;
+  	height: 30px;
+  	width: 150px;
+  	margin: 20px auto auto auto;
+  	text-align: center;
+    text-decoration: none;
+    color: #3D59AB;
+    font-family: Verdana;
+    font-size: 24px;}
+
+#pie {
+  padding:20px; /*el espacio entre el borde y el contenido*/
+  display: block;
+  height: 20px;
+  font-family: Verdana;
+  font-size: 14px;
+  background-color: #85C1E9;
+  color: #EBEDEF;
+  margin: auto;
+  text-align: center;}

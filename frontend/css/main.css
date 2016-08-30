@@ -1,0 +1,12 @@
+.elemento-ingrediente {
+  width: 100%;
+}
+
+.alineado {
+  display: inline-block;
+  width:25%;
+}
+
+.buscador {
+  position: relative;
+}
